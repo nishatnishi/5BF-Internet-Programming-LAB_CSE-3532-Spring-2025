@@ -10,15 +10,23 @@ This project is an AI-powered Resume Builder where users can upload their resume
 We aim to develop an AI-driven system that analyzes resumes and provides feedback on structure, skills, and improvements to enhance job opportunities.
 
 ## 🛠 Tech Stack
-### 📌 Frontend:
-- React
-- Vite
-- Tailwind CSS  
 
-### 📌 Backend:
-- Clerk (Authentication)
-- Strapi (Headless CMS)
-- AI Integration (for resume analysis)
+📌 Frontend:
+- React (For UI Development)
+- Vite (For a fast development environment)
+- Tailwind CSS (For styling)
+
+📌 Backend (Handled by Benin)
+- Strapi (Headless CMS for content management)
+- Clerk (For Authentication & User Management)
+
+📌 AI Integration (Handled by Benin)
+- OpenAI API (For resume analysis and feedback generation)
+- Natural Language Processing (NLP) (For text analysis and improvement suggestions)
+
+📌 Deployment
+- Vercel (For frontend hosting)
+- Render (For backend hosting)
 
 ## 🚀 Development Plan
 - **Phase 1:** Setup project structure and environment  
