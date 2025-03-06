@@ -17,12 +17,13 @@ We aim to develop an AI-driven system that analyzes resumes and provides feedbac
 - Tailwind CSS (For styling)
 
 📌 Backend
-- Strapi (Headless CMS for content management)
-- Clerk (For Authentication & User Management)
+- Node.js + Express.js (Server-side development)
+- MongoDB (Database for storing user resumes)
+- Strapi (Headless CMS) (May be used for content management)
 
 📌 AI Integration
 - Gemini API (For resume analysis and feedback generation)
-- Natural Language Processing (NLP) (For text analysis and improvement suggestions)
+- Natural Language Processing (NLP) & AI Models (For text analysis and improvement suggestions)
 
 📌 Deployment
 - Vercel (For frontend hosting)
