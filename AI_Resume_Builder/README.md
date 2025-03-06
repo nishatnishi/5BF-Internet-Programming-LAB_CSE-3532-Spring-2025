@@ -1,6 +1,6 @@
 # AI Resume Builder
 
-This project is an AI-powered Resume Builder where users can upload their resumes, and AI will analyze them to provide suggestions for improvement.
+AI-Resume-Builder is designed to make resume creation effortless. With the help of AI, users can generate, update, and customize their resumes, ensuring they stand out to potential employers. The application will be secured, user-friendly, and highly customizable.
 
 ## 👥 Team Members
 - ** Kazi Namira Meyheg Sanam : ID - (C231450)
