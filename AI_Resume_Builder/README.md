@@ -21,7 +21,7 @@ We aim to develop an AI-driven system that analyzes resumes and provides feedbac
 - Clerk (For Authentication & User Management)
 
 📌 AI Integration
-- OpenAI API (For resume analysis and feedback generation)
+- Gemini API (For resume analysis and feedback generation)
 - Natural Language Processing (NLP) (For text analysis and improvement suggestions)
 
 📌 Deployment
