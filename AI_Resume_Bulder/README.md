@@ -41,9 +41,9 @@ This project aims to build a smart **AI Resume Builder** using modern technologi
 ## 🚀 Getting Started  
 
 ### **1️⃣ Clone the Repository**  
-```sh
-git clone https://github.com/your-repo-link.git
-cd AI_Resume_Builder_Team5BF
+
+`git clone https://github.com/your-repo-link.git`
+`cd AI_Resume_Builder`
 
 
 
