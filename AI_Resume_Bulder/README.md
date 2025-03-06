@@ -1,93 +1,28 @@
-# 🚀 AI Resume Builder  
+# AI Resume Builder
 
-An AI-powered resume builder that analyzes resumes, provides feedback, and helps users create professional resumes effortlessly.  
+This project is an AI-powered Resume Builder where users can upload their resumes, and AI will analyze them to provide suggestions for improvement.
 
----
+## 👥 Team Members
+- ** Kazi Namira Meyheg Sanam : ID - (C231450)
+- ** Umme Benin Yeasmin Meem : ID - (C231452)
 
-## 👥 Team Members  
-1. **C231450 - Kazi Namira Meyheg Sanam 
-2. **C231452 - Umme Benin Yeasmin Meem  
+## 🎯 Project Overview
+We aim to develop an AI-driven system that analyzes resumes and provides feedback on structure, skills, and improvements to enhance job opportunities.
 
----
+## 🛠 Tech Stack
+### 📌 Frontend:
+- React
+- Vite
+- Tailwind CSS  
 
-## 🌟 Project Overview  
-This project aims to build a smart **AI Resume Builder** using modern technologies like **React, Vite, Tailwind CSS** for frontend and **Clerk & Strapi** for backend authentication and content management.  
+### 📌 Backend:
+- Clerk (Authentication)
+- Strapi (Headless CMS)
+- AI Integration (for resume analysis)
 
-### ✅ **Key Features**  
-- 📝 **Resume Upload & Parsing**  
-- 🎯 **AI-powered Resume Analysis & Suggestions**  
-- 🎨 **Customizable Resume Templates**  
-- 📌 **Job Recommendations Based on Resume**  
-- 🔐 **Secure Authentication with Clerk**  
-
----
-
-## 🛠️ Tech Stack  
-
-### **Frontend (React + Vite)**  
-- ⚡ **Vite** → Fast build tool for React  
-- 🎨 **Tailwind CSS** → Styling framework  
-- ⚛️ **React.js** → Component-based UI  
-- 📜 **React Hook Form** → Form handling  
-
-### **Backend (Clerk + Strapi)**  
-- 🔐 **Clerk** → Authentication & User Management  
-- 📊 **Strapi** → Headless CMS for storing resume data  
-- 🛢️ **PostgreSQL / MySQL** → Database  
-- ☁️ **Cloudinary** → Image & file uploads  
-
----
-
-## 🚀 Getting Started  
-
-### **1️⃣ Clone the Repository**  
-
-`git clone https://github.com/your-repo-link.git`
-`cd AI_Resume_Builder`
-
-
-
-2️⃣ Install Dependencies
-
-🖥️ For Frontend:
-
-`cd frontend`
-`npm install`
-
-🔧 For Backend:
-`cd backend`
-`npm install`
-
-3️⃣ Run the Project
-
-▶️ Start Frontend (React + Vite)
-`npm run dev`
-▶️ Start Backend (Strapi CMS)
-`npm run develop`
-
-
-📌 Project Structure
-
-AI_Resume_Builder_Team5BF/
-│
-├── frontend/            # Frontend code (React + Vite)
-│   ├── src/
-│   │   ├── components/  # Reusable UI components
-│   │   ├── pages/       # Different pages of the app
-│   │   ├── assets/      # Images, logos, etc.
-│   │   ├── App.jsx      # Main entry point
-│   │   ├── index.js     # React entry file
-│   │   └── styles.css   # Global styles (Tailwind)
-│   ├── package.json     # Frontend dependencies
-│
-├── backend/             # Backend code (Clerk + Strapi)
-│   ├── api/             # Strapi API Endpoints
-│   ├── config/          # Backend configurations
-│   ├── models/          # Database models
-│   ├── controllers/     # Business logic
-│   ├── database/        # Database connection
-│   ├── package.json     # Backend dependencies
-│
-├── README.md            # Project documentation
-└── .gitignore           # Ignore unnecessary files
-
+## 🚀 Development Plan
+- **Phase 1:** Setup project structure and environment  
+- **Phase 2:** Build authentication and user management  
+- **Phase 3:** Implement resume upload and analysis  
+- **Phase 4:** Develop AI-based resume feedback system  
+- **Phase 5:** Final testing and deployment on vercel and render
