@@ -26,25 +26,30 @@ We aim to develop an AI-driven system that analyzes resumes and provides feedbac
 
 ## 🛠 Tech Stack
 
+
 ### 📌 Frontend
-🚀 **React.js** – For interactive UI development  
-⚡ **Vite** – For a fast development environment 
-🎨 **Tailwind CSS** – For modern, responsive styling  
+-🚀 **React.js** – For interactive UI development  
+-⚡ **Vite** – For a fast development environment 
+-🎨 **Tailwind CSS** – For modern, responsive styling  
+
 
 ### 📌 Backend
-🛠 **Node.js + Express.js** – Server-side development 
-🗄 **MongoDB** – Database for storing user resumes  
-📜 **Strapi (Optional)** – CMS setup for scratch  
+-🛠 **Node.js + Express.js** – Server-side development 
+-🗄 **MongoDB** – Database for storing user resumes  
+-📜 **Strapi (Optional)** – CMS setup for scratch  
+
 
 ### 📌 AI Integration
-🤖 **Gemini API** – For resume analysis and feedback generation
-🧠 **Natural Language Processing (NLP) & AI Models** – For text analysis and improvement suggestions 
+-🤖 **Gemini API** – For resume analysis and feedback generation
+-🧠 **Natural Language Processing (NLP) & AI Models** – For text analysis and improvement suggestions 
+
 
 ### 📌 Deployment
-🌍 **Vercel** – For frontend hosting  
-🔧 **Render** – For backend hosting  
+-🌍 **Vercel** – For frontend hosting  
+-🔧 **Render** – For backend hosting  
 
 ---
+
 
 ## 🚀 Development Roadmap
 
