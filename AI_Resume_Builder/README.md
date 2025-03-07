@@ -62,7 +62,6 @@ We aim to develop an AI-driven system that analyzes resumes and provides feedbac
 🌍 **Vercel** – For frontend hosting  
 🔧 **Render** – For backend hosting  
 
-
 ---
 
 
