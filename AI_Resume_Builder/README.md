@@ -4,7 +4,6 @@ AI Resume Builder is an intelligent resume creation tool that streamlines the re
 
 ---
 
-
 ## 👥 Team Members
 
 
@@ -47,7 +46,7 @@ We aim to develop an AI-driven system that analyzes resumes and provides feedbac
 
 🛠 **Node.js + Express.js** – Server-side development  
 🗄 **MongoDB** – Database for storing user resumes  
-📜 **Strapi (Optional)** – CMS setup for scratch 
+📜 **Strapi** – CMS setup for scratch 
 
 
 ### 📌 AI Integration
@@ -75,6 +74,7 @@ We aim to develop an AI-driven system that analyzes resumes and provides feedbac
 📌 **Phase 3** – Implement resume upload & AI analysis 🛠  
 📌 **Phase 4** – Build AI-powered feedback & recommendations 🔍  
 📌 **Phase 5** – Final testing & deployment on Vercel (Frontend) & Render (Backend) 🚀  
+
 
 ---
 
