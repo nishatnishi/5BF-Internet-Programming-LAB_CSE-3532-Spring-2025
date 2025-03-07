@@ -1,56 +1,55 @@
-🚀 AI Doctor 2.0 – Voice & Vision
-AI Doctor 2.0 is a smart medical chatbot that integrates vision and voice capabilities, enabling a seamless AI-powered doctor-patient interaction. This open-source project leverages advanced generative AI models to analyze images, process speech, and generate accurate medical responses.
+# 🚀 AI Doctor 2.0 – Voice & Vision  
+_A Smart AI-Powered Medical Chatbot with Voice and Vision Capabilities_  
 
-👥 Team Member
-👩‍💻 Nazrana Nahreen (Solo Developer)
-ID:C231444
+---
 
-📌 About This Project
-In this in-depth tutorial, you'll learn how to build a personalized AI Doctor voice assistant using state-of-the-art AI models. This project explores the limitless possibilities of AI in healthcare, combining cutting-edge computer vision, natural language processing, and speech-to-text technologies.
+## 📌 **About This Project**  
+AI Doctor 2.0 is an **intelligent medical chatbot** that integrates **vision and voice capabilities** for seamless AI-powered doctor-patient interactions.  
 
-I have utilized:
-🦙 Meta Llama 3 Vision 90B – A multimodal LLM for exceptional image and text understanding.
-🎙 Whisper by OpenAI – A powerful speech-to-text model for precise transcription.
-🗣 gTTS (Google Text-to-Speech) & ElevenLabs – For realistic and dynamic speech synthesis.
-🌐 Gradio UI – A simple yet interactive web-based interface for real-time interactions.
-✨ Key Features
-✅ AI-powered Medical Chatbot – Provides intelligent and responsive health consultations.
-✅ Vision-based Diagnosis – Processes and understands medical images.
-✅ Voice Interaction – Accepts speech input and responds with dynamic voice output.
-✅ Gradio Web Interface – Easy-to-use and accessible from any browser.
-✅ Open-Source & Customizable – Modify and expand the chatbot for various applications.
+This **open-source project** combines **cutting-edge generative AI, computer vision, and natural language processing** to analyze **medical images**, process **speech**, and generate **precise health responses**.  
 
-🛠 Tech Stack
-📌 Core Technologies
-🔹 Python – Main programming language
-🔹 Gradio – For an interactive web-based UI
+---
+## 👤 Team Member (Solo Developer)
 
-📌 AI & Machine Learning
-🤖 Meta Llama 3 Vision 90B – Image & text processing
-🎙 Whisper by OpenAI – Speech-to-text conversion
+| Name             | Role       | ID        |
+|-----------------|-----------|-----------|
+| 👩‍💻 Nazrana Nahreen | Developer | C231444   |
+---
 
-📌 Text-to-Speech Integration
-🗣 gTTS & ElevenLabs – For natural AI-generated speech
+## 🛠 **Tech Stack**  
+- **Programming Language** – Python  
+- **User Interface** – Gradio  
+- **Speech-to-Text** – OpenAI Whisper  
+- **Image & Text Understanding** – Meta Llama 3 Vision 90B  
+- **Text-to-Speech** – gTTS & ElevenLabs  
+- **Audio Processing** – FFmpeg, PortAudio  
+- **Deployment** – Local & Cloud Hosting Options  
 
-📌 Audio & Speech Processing
-🎤 FFmpeg – Audio processing
-🔊 PortAudio – Real-time voice interaction
+---
 
-📌 Deployment
-☁️ Local & Cloud Hosting Options
+## ✨ **Key Features**  
+✅ AI-powered **Medical Chatbot** for health consultations  
+✅ **Vision-Based Diagnosis** – Analyzes medical images  
+✅ **Voice Interaction** – Speech-to-text & text-to-speech capabilities  
+✅ **Secure & User-Friendly** interface built with **Gradio**  
+✅ **Customizable & Open-Source**  
 
-🚀 Development Roadmap
-📌 Phase 1 – Brain of the Doctor ✅
-🔹 Develop the core AI model for understanding medical queries
+---
 
-📌 Phase 2 – Voice of the Patient 🚧
-🔹 Implement speech-to-text conversion using Whisper AI
+## 📅 **Development Roadmap**  
 
-📌 Phase 3 – Vision-Based Analysis 🛠
-🔹 Integrate Meta Llama 3 Vision 90B for image processing
+✔ **Phase 1 – Brain of the Doctor**  
+Develop **core AI logic** for understanding medical queries  
 
-📌 Phase 4 – AI-Generated Doctor Responses 🔍
-🔹 Implement text-to-speech with gTTS & ElevenLabs
+🚧 **Phase 2 – Voice of the Patient**  
+Implement **speech-to-text conversion** using **Whisper AI**  
 
-📌 Phase 5 – Build Gradio UI 🎨
-🔹 Develop an interactive chatbot interface
+🛠 **Phase 3 – Vision-Based Analysis**  
+Integrate **Meta Llama 3 Vision 90B** for **image processing**  
+
+🔍 **Phase 4 – AI-Generated Doctor Responses**  
+Implement **text-to-speech** using **gTTS & ElevenLabs**  
+
+🎨 **Phase 5 – Build Gradio UI**  
+Develop **interactive chatbot interface**  
+
