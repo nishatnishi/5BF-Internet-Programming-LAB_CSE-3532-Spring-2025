@@ -15,6 +15,7 @@ AI Resume Builder is an intelligent resume creation tool that streamlines the re
 
 
 ## 🎯 Project Overview
+
 We aim to develop an AI-driven system that analyzes resumes and provides feedback on structure, skills, and improvements to enhance job opportunities.
 
 
