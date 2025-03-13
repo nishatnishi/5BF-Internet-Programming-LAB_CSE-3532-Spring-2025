@@ -1,7 +1,7 @@
-##🍳 Smart Recipe Generator 
+## 🍳 Smart Recipe Generator 
 Smart Recipe Generator is an AI-powered web application
 
-##📌 About This Project
+## 📌 About This Project
 Smart Recipe Generator is an AI-powered web application that uses GPT-3.4 to generate unique recipes based on selected ingredients and dietary preferences,OpenCv & PIL image processing to create custom recipe images, and TTS to narrate recipes. It's designed to make cooking easy, creative, and accessible for everyone.
 
 ## 👤 Team Member (Solo Developer)
