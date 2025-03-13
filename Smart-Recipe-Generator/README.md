@@ -23,13 +23,13 @@ Smart Recipe Generator is an AI-powered web application that uses GPT-3.4 to gen
 - **Web/UI Development** – Streamlit  
 
 ## 🌟 Key Features
-#🤖 AI-Powered Features
+# 🤖 AI-Powered Features
 ✅ **GPT-3.4 Recipe Generation** – Create unique recipes based on user-selected ingredients and dietary preferences. 
 ✅ **Image Processings** – Automatically processings high-quality images of ingredients make recipes.  
 ✅ **Text-to-Speech (TTS)** – Narrate recipes aloud using AI-driven speech synthesis.  
 ✅ **AI-Generated Tags** – Recipes are automatically tagged with relevant keywords for better searchability.
 
-#📋 Core Features
+# 📋 Core Features
 **User Authentication**: Secure login via Google OAuth using NextAuth.js.
 **Ingredient Selection**: Choose from a database of ingredients or add your own.
 **Recipe Management**: Like, save, and share recipes.
