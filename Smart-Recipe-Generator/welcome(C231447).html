@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Smart Recipe Generator</title>
+    <style>
+      .carousel-item {
+          display: none;
+      }
+      .carousel-item.active {
+          display: block;
+      }
+      .carousel-item img {
+          width: 100vw;
+          height: 100vh;
+          object-fit: cover;
+      }
+      .carousel-container {
+          position: relative;
+          overflow: hidden;
+      }
+      .text-overlay {
+          position: absolute;
+          top: -200px; 
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: rgba(222, 205, 190, 0.8);
+          width: 85%;
+          max-width: 852px;
+          padding: 30px;
+          text-align: center;
+          border-radius: 5px;
+          z-index: 10;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+      }
+  </style>
+</head>
+<body>
+
+  <!--Navbar-->
+
+    <nav class="bg-[#F6F0EB] ">
+        <div class="navbar shadow-sm gap-[330px] p-6">
+            <div class="flex px-20">
+                <img src="images/logo.png">
+              <a class="text-[#411221] text-[26px] font-medium content-center">RecipeFusion</a>
+            </div>
+            <div class="flex justify-center text-lg font-normal font-['Poppins'] gap-3">
+              <ul class="menu menu-horizontal text-lg gap-3">
+                <li><a >Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Create</a></li>
+                <li><a>Contacts</a></li>
+              </ul>
+              <div class="content-center space-x-3">
+                <button class="px-6 py-2 bg-[#e3e3e3] rounded-lg border-2  inline-flex justify-center items-center border-slate-600  hover:bg-slate-300 ">Login</button>
+                <button class="px-6 py-2 justify-center bg-black items-center rounded-lg  text-white hover:bg-slate-700 border-2 border-black">Register</button>
+              </div>
+              
+            </div>
+          </div>
+    </nav>
+
+    <!--Main Section-->
+    
+    <section  class="relative ">
+      <div id="controls-carousel" data-carousel="static">
+        <!-- Carousel wrapper -->
+        <div class=" overflow-hidden mt-[370px] ">
+            <!-- Item 1 -->
+            <div class="carousel-item duration-700 ease-in-out" data-carousel-item>
+                <img src="images/bg-img-3.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 2 -->
+            <div class="carousel-item duration-700 ease-in-out" data-carousel-item>
+                <img src="images/bg-img-2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="carousel-item duration-700 ease-in-out" data-carousel-item>
+                <img src="images/bg-img-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 4 -->
+            <div class="carousel-item duration-700 ease-in-out" data-carousel-item>
+              <img src="images/bg-img-4.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+        </div>
+
+        
+        <div class="text-overlay space-y-10">
+          <div class="text-5xl font-bold text-[#411221] leading-tight font-['Inter']">
+            Introducing Your AI-Enhanced Culinary Companion
+          </div>
+          <div class=" text-center justify-center text-Text-Default-Secondary text-[25px] font-normal font-['Inter'] leading-[38.40px] text-stone-800">"Effortlessly Create Delicious Meals with Personalized Recipes and Smart Suggestions.”</div>
+        </div>
+        
+  
+    </div>
+    </section>
+
+    <script>
+      const carouselItems = document.querySelectorAll('[data-carousel-item]');
+      let currentIndex = 0;
+
+      carouselItems[currentIndex].classList.add('active');
+
+      function nextSlide() {
+
+          carouselItems[currentIndex].classList.remove('active');
+
+          currentIndex = (currentIndex + 1) % carouselItems.length;
+
+          carouselItems[currentIndex].classList.add('active');
+      }
+
+      setInterval(nextSlide, 2500); 
+  </script>
+
+</body>
+</html>
