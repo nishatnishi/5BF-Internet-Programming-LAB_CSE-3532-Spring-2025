@@ -6,7 +6,7 @@ AI Resume Builder is an intelligent resume creation tool that streamlines the re
 
 ## 👥 Team Members & Roles
 
-- **Kazi Namira Meyheg Sanam (ID: C231450)** – Frontend Developer
+- **Kazi Namira Meyheg Sanam (ID: C231450)** – Frontend Development
 
 
   - Set up the frontend using React, Vite, and Tailwind CSS
@@ -16,7 +16,7 @@ AI Resume Builder is an intelligent resume creation tool that streamlines the re
   - Will implement AI-based frontend features such as real-time feedback and analysis visualization
 
 
-- **Umme Benin Yeasmin Meem (ID: C231452)** – Backend Developer
+- **Umme Benin Yeasmin Meem (ID: C231452)** – Backend Development
 
 
   - Implemented authentication API 
