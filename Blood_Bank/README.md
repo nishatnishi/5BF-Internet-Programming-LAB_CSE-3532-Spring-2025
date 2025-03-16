@@ -51,11 +51,11 @@ A responsive and user-friendly Blood Bank Management System designed to facilita
 6️⃣ **More Page** - Inqueries about the website and feedback.
 
 ## 👨‍💻 Team Members
-Ahmed Faiza	C231465
-
-Azrin Karim C231466
-
-Rahatunnesa Rahi C231474
+ | Name              | ID      |
+ |--------------     |---------|
+ |  Ahmed Faiza      | C231465 |
+ |  Azrin Karim      | C231466 |
+ | Rahatunnesa Rahi  | C231474 |
 
 ## 📌 Setup & Installation
 
