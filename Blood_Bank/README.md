@@ -1,6 +1,6 @@
 + # 🩸 Blood Bank Management System
 + A responsive and user-friendly Blood Bank Management System designed to facilitate blood donations and requests efficiently.
-+
++ 
 + ## 🌟 Features
 + ✅ User Authentication (Register & Login)
 + ✅ Donor Details
@@ -15,7 +15,7 @@
 + ## 🛠 Tech Stack
 +
 + **Frontend:**
-+ - HTML
++ HTML
 + - Tailwind CSS
 + - JavaScript
 + - React
