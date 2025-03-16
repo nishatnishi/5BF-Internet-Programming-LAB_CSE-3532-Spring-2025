@@ -69,8 +69,8 @@ A responsive and user-friendly Blood Bank Management System designed to facilita
 
 ## 📅 Development Roadmap
 🟢 **Phase 1** – UI & Design Setup (Home, Service, Review, Admin, Contact, and More)
-🟡 **Phase 2** – Login and registration Authentification
 
+🟡 **Phase 2** – Login and registration Authentification
 
 🔵 **Phase 3** – Donar and patient details privacy
 
