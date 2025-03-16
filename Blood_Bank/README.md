@@ -7,13 +7,21 @@ A responsive and user-friendly Blood Bank Management System designed to facilita
 ✅ User Authentication (Register & Login)
 
 ✅ Donor Details
+
 ✅ Patient Details
+
 ✅ Services and Reviews
+
 ✅ Inqueries and feedback
+
 ✅ Blood Donation & Request Management
+
 ✅ Contact Page for Queries & Assistance
+
 ✅ Mobile & Desktop Responsive Design
+
 ✅ Eye-Soothing UI with Relevant Images
+
 
 ## 🛠 Tech Stack
 
@@ -51,8 +59,11 @@ Rahatunnesa Rahi C231474
 
 ## 📅 Development Roadmap
 🟢 **Phase 1** – UI & Design Setup (Home, Service, Review, Admin, Contact, and More)
+
 🟡 **Phase 2** – Login and registration Authentification
+
 🔵 **Phase 3** – Donar and patient details privacy
+
 🟣 **Phase 4** – Final Testing & Deployment 
 
 ---
