@@ -29,7 +29,7 @@
 - **Frontend**: HTML, CSS, JavaScript (React.js for dynamic content)
 - **Backend** : Python,Django
 - **Styling**: HTML,CSS
-- **API** : SpaceX API (https://github.com/r-spacex/SpaceX-API)
+- **API** : SpaceX API 
 
 ## 🔧 Installation & Setup
 1. **Clone the repository**
