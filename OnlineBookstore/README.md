@@ -81,11 +81,4 @@ Welcome to the Online Book Store, a full-stack web application built using the M
 ✔️ Add book reviews and ratings  
 ✔️ Improve search and filtering features  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📜 𝗟𝗶𝗰𝗲𝗻𝘀𝗲
-This project is open-source and available under the MIT License.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-💡 𝗛𝗮𝗽𝗽𝘆 𝗖𝗼𝗱𝗶𝗻𝗴! 🚀
