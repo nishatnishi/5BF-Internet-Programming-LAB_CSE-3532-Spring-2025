@@ -13,13 +13,12 @@
 + ✅ Eye-Soothing UI with Relevant Images
 +
 + ## 🛠 Tech Stack
-+
 + **Frontend:**
 + HTML
-+ - Tailwind CSS
-+ - JavaScript
-+ - React
-+- Firebase Databese for Authentification
++ Tailwind CSS
++ JavaScript
++ React
++ Firebase Databese for Authentification
 +
 **Backend:**
 - Javascript
