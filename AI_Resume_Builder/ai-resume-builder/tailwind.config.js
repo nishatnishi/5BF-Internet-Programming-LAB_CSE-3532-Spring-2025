@@ -53,9 +53,8 @@ module.exports = {
         },
 
         customBlue: "#1e40af", // Define your custom blue color
-        skyBlue: "#38bdf8",   // Lighter blue color
-        deepBlue: "#0369a1",  // Darker blue color
-
+        skyBlue: "#38bdf8", // Lighter blue color
+        deepBlue: "#0369a1", // Darker blue color
       },
       borderRadius: {
         lg: "var(--radius)",
