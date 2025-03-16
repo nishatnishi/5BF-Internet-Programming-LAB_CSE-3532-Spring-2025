@@ -2,11 +2,14 @@
 
 AI Resume Builder is an intelligent resume creation tool that streamlines the resume-building process using AI. Users can effortlessly generate, update, and enhance their resumes to stand out to potential employers. The application is secure, user-friendly, and highly customizable.
 
----
 
+---
 ## 👥 Team Members & Roles
 
+
+
 - **Kazi Namira Meyheg Sanam (ID: C231450)** – Frontend Development
+
 
 
   - Set up the frontend using React, Vite, and Tailwind CSS
@@ -16,7 +19,11 @@ AI Resume Builder is an intelligent resume creation tool that streamlines the re
   - Will implement AI-based frontend features such as real-time feedback and analysis visualization
 
 
+
+
 - **Umme Benin Yeasmin Meem (ID: C231452)** – Backend Development
+
+
 
 
   - Implemented authentication API 
@@ -28,34 +35,40 @@ AI Resume Builder is an intelligent resume creation tool that streamlines the re
 
 
 
+
+
 ---
-
-
 ## 🏗️ Current Project Status
+
+
 
 Currently, the project is in its early stages. The frontend setup is partially completed, authentication API is implemented, and backend development is in progress. Both frontend and backend will undergo further development.
 
 
 
+
 ---
-
-
-
 ## 🎯 Project Overview
 
 We aim to develop an AI-driven system that analyzes resumes and provides feedback on structure, skills, and improvements to enhance job opportunities.
 
----
 
+
+
+---
 ## ✨ Key Features
 ✅ AI-powered resume analysis  
 ✅ Skill & experience enhancement suggestions  
 ✅ Instant feedback & optimization tips  
 ✅ Secure & user-friendly interface  
 
+
+
 ---
 
 ## 🛠 Tech Stack
+
+
 
 ### 📌 Frontend
 
@@ -63,24 +76,33 @@ We aim to develop an AI-driven system that analyzes resumes and provides feedbac
 ⚡ Vite – For a fast development environment  
 🎨 Tailwind CSS – For modern, responsive styling  
 
+
+
 ### 📌 Backend
 
 🛠 Node.js + Express.js – Server-side development  
 🗄 MongoDB – Database for storing user resumes  
-📜 Strapi – CMS setup from scratch  
+📜 Strapi – CMS setup from scratch 
+
+
 
 ### 📌 AI Integration
 
 🤖 Gemini API – For resume analysis and feedback generation  
-🧠 Natural Language Processing (NLP) & AI Models – For text analysis and improvement suggestions  
+🧠 Natural Language Processing (NLP) & AI Models – For text analysis and improvement suggestions 
+
+
 
 ### 📌 Deployment
 
 🌍 Vercel – For frontend hosting  
 🔧 Render – For backend hosting  
 
----
 
+
+
+
+---
 ## 🚀 Development Roadmap
 
 📌 **Phase 1** – Set up project structure & environment ✅ *(Frontend set up by Kazi Namira Meyheg Sanam)* 
