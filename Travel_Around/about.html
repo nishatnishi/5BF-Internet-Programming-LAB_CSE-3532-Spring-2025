@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<header>
+    <div class="logo">
+        <a href="#"><img src="/logo.png" alt="logo" width="500" /> </a>
+    </div>
+    <nav class="nav-menu">
+        <ul>
+           <li> <a href="index.html">Home</a> </li>
+           <li> <a href="about.html">About</a> </li>
+           <li> <a href="destination.html">Destinations</a> </li>
+           <li> <a href="packages.html">TourPackages</a> </li>
+           <li> <a href="review.html">Review</a> </li>
+            <li> <a href="contact.html">Contact</a> </li>
+            <li> <button onclick="login()" class="btnlogin-popup">Login</button></li>
+        </ul>
+    </nav>
+   
+   
+</header>
+<main>
+    <div class="container">
+        <!-- Title -->
+        <h1 class="title">About Us</h1>
+
+        <!-- About Us Section -->
+        <div class="about-section">
+            <div class="left-section">
+                <!-- Who We Are? -->
+                <h2>Who We Are?</h2>
+                <p class="who-we-are-text">
+                    Travel Around is an online travel platform dedicated to offering unforgettable travel experiences within Bangladesh. We specialize in handpicked tour packages designed for every kind of traveler, whether you're an adventure seeker, a culture enthusiast, or someone who just wants to unwind in nature’s serenity.
+                </p>
+
+                <!-- See More Button -->
+                <button class="see-more-btn" onclick="showDetails()">See More...</button>
+
+                <!-- Hidden Content (Our Mission & Why Choose Us) -->
+                <div id="more-details" class="more-details">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to provide every traveler with personalized travel experiences that are both enriching and fun. We aim to make every trip an opportunity to explore the hidden gems of Bangladesh.</p>
+
+                    <h3>Why Choose Us?</h3>
+                    <p>We offer expertly crafted travel packages that cater to a variety of preferences. From seamless bookings to 24/7 support, we make your journey hassle-free and unforgettable.</p>
+                </div>
+            </div>
+
+            <!-- Right Section with Images -->
+            <div class="right-section">
+                <!-- Image Slider -->
+                <div class="image-slider">
+                    <img src="about2.jpg" alt="Travel Destination 1" class="active">
+                    <img src="about3.jpeg" alt="Travel Destination 2">
+                    <img src="about1.jpg" alt="Travel Destination 3">
+                </div>
+
+                <!-- Dot Buttons for Image Slider -->
+                <div class="dot-buttons">
+                    <span class="dot active" onclick="changeImage(0)"></span>
+                    <span class="dot" onclick="changeImage(1)"></span>
+                    <span class="dot" onclick="changeImage(2)"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="index.html"><i class='bx bx-chevron-right'></i><i class='bx bxs-home'></i> Home </a>
+                <a href="about.html"><i class='bx bx-chevron-right'></i> About </a>
+                <a href="package.html"><i class='bx bx-chevron-right'></i> Packages </a>
+                <a href="contact.html"><i class='bx bx-chevron-right'></i> Contact </a>
+            </div>
+
+            <div class="box">
+               <h3>Extra links</h3>
+               <a href="" ><i class='bx bx-chevron-right'></i>ask questions</a>
+               <a href="destination.html"><i class='bx bx-chevron-right'></i>Destinations</a>
+               <a href="#"><i class='bx bx-chevron-right'></i> Privacy policy</a>
+               <a href="#"><i class='bx bx-chevron-right'></i> Terms of use</a>
+
+
+            </div>
+
+            <div class="box">
+                <h3> Follow us</h3>
+                <a href="#"><i class='bx bxl-facebook'></i> facebook </a>
+                <a href="#"><i class='bx bxl-twitter'></i> twitter</a>
+                <a href="#"><i class='bx bxl-instagram'></i>instagram </a>
+                <a href="#"><i class='bx bxl-youtube' ></i> youtube</a>
+            </div>
+        </div>
+
+        <div class="credit"> Created by <span> travelaround</span> |All Rights Reserved!</div>
+      </section>
+    
+
+
+    <script src="script.js"></script>
+</main>
+</html>
