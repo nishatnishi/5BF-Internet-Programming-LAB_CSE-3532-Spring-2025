@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<header>
+    <div class="logo">
+        <a href="#"><img src="/logo.png" alt="logo" width="500" /> </a>
+    </div>
+    <nav class="nav-menu">
+        <ul>
+           <li> <a href="index.html">Home</a> </li>
+           <li> <a href="about.html">About</a> </li>
+           <li> <a href="destination.html">Destinations</a> </li>
+           <li> <a href="packages.html">TourPackages</a> </li>
+           <li> <a href="review.html">Review</a> </li>
+            <li> <a href="contact.html">Contact</a> </li>
+            <li> <button onclick="login()" class="btnlogin-popup">Login</button></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <header> <h1>Explore Our Tour Packages</h1> </header>
+
+    <section class="packages-container">
+        <div class="package">
+            <img src="ctg.jpg" alt="Package 1">
+            <h2>Location: Chittagong</h2>
+            <h4> Patenga Sea Beach, Karnaphuli River, Foy's Lake</h4>
+            <p>Explore the wild landscapes with an exciting adventure tour.</p>
+            <p class="price">1500.99 tk</p>
+            
+            <form class="date-form">
+                <label for="start-date-ctg">Start Date:</label>
+                <input type="date" id="start-date-ctg" class="start-date" required>
+                <label for="end-date-ctg">End Date:</label>
+                <input type="date" id="end-date-ctg" class="end-date" required>
+            </form>
+            <form class="options-form">
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="breakfast-ctg" name="breakfast" value="60">
+                    <label for="breakfast">Breakfast</label>
+                    <span class="price">60 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="lunch-ctg" name="lunch" value="200">
+                    <label for="lunch">Lunch</label>
+                    <span class="price">200 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="dinner-ctg" name="dinner" value="150">
+                    <label for="dinner">Dinner</label>
+                    <span class="price">150 Tk</span>
+                </div>
+                <div class="option">
+                    <label for="activities-ctg">Activities</label>
+                    <button id="activity-btn-ctg-1" class="activity-btn" type="button" onclick="toggleActivityOptions('activity-options-ctg-1')">Select Activity</button>
+                    <div id="activity-options-ctg-1" class="activity-options" style="display: none;">
+                        <label><input type="checkbox" class="activity-checkbox" value="50" /> Cricket (50 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="75" /> Football (75 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="100" /> Swimming (100 Tk/day)</label><br>
+                    </div>
+                </div>
+            </form>
+            <h3>Total Price: <span id="totalPrice-ctg">0</span> Tk </h3>
+            <form action="process_package_selection.html" method="POST">
+                <input type="hidden" name="package" value="Adventure Tour">
+                <input type="hidden" name="price" value="$499.99">
+                <button type="submit">Select Chittagong Tour</button>
+            </form>
+        </div>
+
+        <div class="package">
+            <img src="coxs.jpg" alt="Package 2">
+            <h2>Location: Cox's Bazar</h2>
+            <h4>cox's bazar beach, Inani Beach, Himchari Fountain and hill</h4>
+            <p>Explore the wild landscapes with an exciting adventure tour.</p>
+            <p class="price">2800.99 tk</p>
+
+            <form class="date-form">
+                <label for="start-date-ctg">Start Date:</label>
+                <input type="date" id="start-date-ctg" class="start-date" required>
+                <label for="end-date-ctg">End Date:</label>
+                <input type="date" id="end-date-ctg" class="end-date" required>
+            </form>
+            <form class="options-form">
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="breakfast-cox" name="breakfast" value="60">
+                    <label for="breakfast">Breakfast</label>
+                    <span class="price">60 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="lunch-cox" name="lunch" value="200">
+                    <label for="lunch">Lunch</label>
+                    <span class="price">200 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="dinner-cox" name="dinner" value="150">
+                    <label for="dinner">Dinner</label>
+                    <span class="price">150 Tk</span>
+                </div>
+                <div class="option">
+                    <label for="activities-cox">Activities</label>
+                    <button id="activity-btn-cox-1" class="activity-btn" type="button" onclick="toggleActivityOptions('activity-options-cox-1')">Select Activity</button>
+                    <div id="activity-options-cox-1" class="activity-options" style="display: none;">
+                        <label><input type="checkbox" class="activity-checkbox" value="50" /> Cricket (50 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="75" /> Football (75 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="100" /> Swimming (100 Tk/day)</label><br>
+                    </div>
+                </div>
+            </form>
+            <h3>Total Price: <span id="totalPrice-cox">0</span> Tk </h3>
+            <form action="process_package_selection.html" method="POST">
+                <input type="hidden" name="package" value="Adventure Tour">
+                <input type="hidden" name="price" value="$499.99">
+                <button type="submit">Select Cox's Bazar Tour</button>
+            </form>
+        </div>
+
+        <div class="package">
+            <img src="st_martin.jpg" alt="Package 3">
+            <h2>Location: Saint Martin</h2>
+            <h4> saint martin Island, Sand Castle Resort, Josnaloy Resort</h4>
+            <p>Explore the wild landscapes with an exciting adventure tour.</p>
+            <p class="price">2800.99 tk</p>
+
+            <form class="date-form">
+                <label for="start-date-ctg">Start Date:</label>
+                <input type="date" id="start-date-ctg" class="start-date" required>
+                <label for="end-date-ctg">End Date:</label>
+                <input type="date" id="end-date-ctg" class="end-date" required>
+            </form>
+            <form class="options-form">
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="breakfast-st" name="breakfast" value="60">
+                    <label for="breakfast">Breakfast</label>
+                    <span class="price">60 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox"id="lunch-st" name="lunch" value="200">
+                    <label for="lunch">Lunch</label>
+                    <span class="price">200 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="dinner-st" name="dinner" value="150">
+                    <label for="dinner">Dinner</label>
+                    <span class="price">150 Tk</span>
+                </div>
+                <div class="option">
+                    <label for="activities-st">Activities</label>
+                    <button id="activity-btn-st-1" class="activity-btn" type="button" onclick="toggleActivityOptions('activity-options-st-1')">Select Activity</button>
+                    <div id="activity-options-st-1" class="activity-options" style="display: none;">
+                        <label><input type="checkbox" class="activity-checkbox" value="50" /> Cricket (50 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="75" /> Football (75 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="100" /> Swimming (100 Tk/day)</label><br>
+                    </div>
+                </div>
+            </form>
+            <h3>Total Price: <span id="totalPrice-st">0</span> Tk </h3>        
+            <form action="process_package_selection.html" method="POST">
+                <input type="hidden" name="package" value="Adventure Tour">
+                <input type="hidden" name="price" value="$499.99">
+                <button type="submit">Select Saint Martin Tour</button>
+            </form>
+        </div>
+        
+        <div class="package">
+            <img src="bandarban.jpg" alt="Package 4">
+            <h2>Location: Bandarban</h2>
+            <h4> Nilgiri Hill, Amiakhum Waterfall, Sangu River</h4>
+            <p>Explore the wild landscapes with an exciting adventure tour.</p>
+            <p class="price">2000.99 tk</p>
+
+            <form class="date-form">
+                <label for="start-date-ctg">Start Date:</label>
+                <input type="date" id="start-date-ctg" class="start-date" required>
+                <label for="end-date-ctg">End Date:</label>
+                <input type="date" id="end-date-ctg" class="end-date" required>
+            </form>
+            <form class="options-form">
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="breakfast-bb" name="breakfast" value="60">
+                    <label for="breakfast">Breakfast</label>
+                    <span class="price">60 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="lunch-bb" name="lunch" value="200">
+                    <label for="lunch">Lunch</label>
+                    <span class="price">200 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="dinner-bb" name="dinner" value="150">
+                    <label for="dinner">Dinner</label>
+                    <span class="price">150 Tk</span>
+                </div>
+                <div class="option">
+                    <label for="activities-bb">Activities</label>
+                    <button id="activity-btn-bb-1" class="activity-btn" type="button" onclick="toggleActivityOptions('activity-options-bb-1')">Select Activity</button>
+                    <div id="activity-options-bb-1" class="activity-options" style="display: none;">
+                        <label><input type="checkbox" class="activity-checkbox" value="50" /> Cricket (50 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="75" /> Football (75 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="100" /> Swimming (100 Tk/day)</label><br>
+                    </div>
+                </div>
+            </form>
+            <h3>Total Price: <span id="totalPrice-bb">0</span> Tk </h3>
+            <form action="process_package_selection.html" method="POST">
+                <input type="hidden" name="package" value="Adventure Tour">
+                <input type="hidden" name="price" value="$499.99">
+                <button type="submit">Select Bandarban Tour</button>
+            </form>
+        </div>
+
+        <div class="package">
+            <img src="rangamati.jpg" alt="Package 5">
+            <h2>Location: Rangamati</h2>
+            <h4> Hanging Bridge, Kaptai, Shuvolong Waterfall, Sajek Valley</h4>
+            <p>Explore the wild landscapes with an exciting adventure tour.</p>
+            <p class="price">1500.99 tk</p>
+
+            <form class="date-form">
+                <label for="start-date-ctg">Start Date:</label>
+                <input type="date" id="start-date-ctg" class="start-date" required>
+                <label for="end-date-ctg">End Date:</label>
+                <input type="date" id="end-date-ctg" class="end-date" required>
+            </form>
+            <form class="options-form">
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="breakfast-r" name="breakfast" value="60">
+                    <label for="breakfast">Breakfast</label>
+                    <span class="price">60 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="lunch-r" name="lunch" value="200">
+                    <label for="lunch">Lunch</label>
+                    <span class="price">200 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="dinner-r" name="dinner" value="150">
+                    <label for="dinner">Dinner</label>
+                    <span class="price">150 Tk</span>
+                </div>
+                <div class="option">
+                    <label for="activities-r">Activities</label>
+                    <button id="activity-btn-r-1" class="activity-btn" type="button" onclick="toggleActivityOptions('activity-options-r-1')">Select Activity</button>
+                    <div id="activity-options-r-1" class="activity-options" style="display: none;">
+                        <label><input type="checkbox" class="activity-checkbox" value="50" /> Cricket (50 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="75" /> Football (75 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="100" /> Swimming (100 Tk/day)</label><br>
+                    </div>
+                </div>
+            </form>
+            <h3>Total Price: <span id="totalPrice-r">0</span> Tk </h3>
+            <form action="process_package_selection.html" method="POST">
+                <input type="hidden" name="package" value="Adventure Tour">
+                <input type="hidden" name="price" value="$499.99">
+                <button type="submit">Select Rangamati Tour</button>
+            </form>
+        </div>
+
+        <div class="package">
+            <img src="sylhet.jpg" alt="Package 6">
+            <h2>Location: Sylhet</h2>
+            <h4> Sreemangal, Lalakhal, Jaflong</h4>
+            <p>Explore the wild landscapes with an exciting adventure tour.</p>
+            <p class="price">2500.99 tk</p>
+
+            <form class="date-form">
+                <label for="start-date-ctg">Start Date:</label>
+                <input type="date" id="start-date-ctg" class="start-date" required>
+                <label for="end-date-ctg">End Date:</label>
+                <input type="date" id="end-date-ctg" class="end-date" required>
+            </form>
+            <form class="options-form">
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="breakfast-sy" name="breakfast" value="60">
+                    <label for="breakfast">Breakfast</label>
+                    <span class="price">60 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="lunch-sy" name="lunch" value="200">
+                    <label for="lunch">Lunch</label>
+                    <span class="price">200 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="dinner-sy" name="dinner" value="150">
+                    <label for="dinner">Dinner</label>
+                    <span class="price">150 Tk</span>
+                </div>
+                <div class="option">
+                    <label for="activities-sy">Activities</label>
+                    <button id="activity-btn-sy-1" class="activity-btn" type="button" onclick="toggleActivityOptions('activity-options-sy-1')">Select Activity</button>
+                    <div id="activity-options-sy-1" class="activity-options" style="display: none;">
+                        <label><input type="checkbox" class="activity-checkbox" value="50" /> Cricket (50 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="75" /> Football (75 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="100" /> Swimming (100 Tk/day)</label><br>
+                    </div>
+                </div>
+            </form>
+            <h3>Total Price: <span id="totalPrice-sy">0</span> Tk </h3>
+            <form action="process_package_selection.html" method="POST">
+                <input type="hidden" name="package" value="Adventure Tour">
+                <input type="hidden" name="price" value="$499.99">
+                <button type="submit">Select Sylhet Tour</button>
+            </form>
+        </div>
+
+        <div class="package">
+            <img src="lal.jpg" alt="Package 7">
+            <h2>Location: Dhaka</h2>
+            <h4> Dhaka-Lalbagh, Ahsan-Manzil, Sarah-Resort</h4>
+            <p>Explore the wild landscapes with an exciting adventure tour.</p>
+            <p class="price">2500.99 tk</p>
+
+            <form class="date-form">
+                <label for="start-date-dhaka">Start Date:</label>
+                <input type="date" id="start-date-dhaka" class="start-date" required>
+                <label for="end-date-dhaka">End Date:</label>
+                <input type="date" id="end-date-dhaka" class="end-date" required>
+            </form>
+            <form class="options-form">
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="breakfast-dh" name="breakfast" value="60">
+                    <label for="breakfast">Breakfast</label>
+                    <span class="price">60 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="lunch-dh" name="lunch" value="200">
+                    <label for="lunch">Lunch</label>
+                    <span class="price">200 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="dinner-dh" name="dinner" value="150">
+                    <label for="dinner">Dinner</label>
+                    <span class="price">150 Tk</span>
+                </div>
+                <div class="option">
+                    <label for="activities-dh">Activities</label>
+                    <button id="activity-btn-dh-1" class="activity-btn" type="button" onclick="toggleActivityOptions('activity-options-dh-1')">Select Activity</button>
+                    <div id="activity-options-dh-1" class="activity-options" style="display: none;">
+                        <label><input type="checkbox" class="activity-checkbox" value="50" /> Cricket (50 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="75" /> Football (75 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="100" /> Swimming (100 Tk/day)</label><br>
+                    </div>
+                </div>
+            </form>
+            <h3>Total Price: <span id="totalPrice-dh">0</span> Tk </h3>
+            <form action="process_package_selection.html" method="POST">
+                <input type="hidden" name="package" value="Adventure Tour">
+                <input type="hidden" name="price" value="$499.99">
+                <button type="submit">Select Dhaka Tour</button>
+            </form>
+        </div>
+
+        <div class="package">
+            <img src="sundarban.jpg" alt="Package 8">
+            <h2>Location: Sundarbans</h2>
+            <h4> mangrove-forest, Sixty-Dome mosque, Rupsha River</h4>
+            <p>Explore the wild landscapes with an exciting adventure tour.</p>
+            <p class="price">2999.99 tk</p>
+
+            <form class="date-form">
+                <label for="start-date-man">Start Date:</label>
+                <input type="date" id="start-date-man" class="start-date" required>
+                <label for="end-date-man">End Date:</label>
+                <input type="date" id="end-date-man" class="end-date" required>
+            </form>
+
+            <form class="options-form">
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="breakfast-man" name="breakfast" value="60">
+                    <label for="breakfast">Breakfast</label>
+                    <span class="price">60 Tk</span>
+                </div>
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="lunch-man" name="lunch" value="200">
+                    <label for="lunch">Lunch</label>
+                    <span class="price">200 Tk</span>
+                </div>            
+                <div class="option">
+                    <input type="checkbox" class="option-checkbox" id="dinner-man" name="dinner" value="150">
+                    <label for="dinner">Dinner</label>
+                    <span class="price">150 Tk</span>
+                </div>
+                <div class="option">
+                    <label for="activities-man">Activities</label>
+                    <button id="activity-btn-man-1" class="activity-btn" type="button" onclick="toggleActivityOptions('activity-options-man-1')">Select Activity</button>
+                    <div id="activity-options-man-1" class="activity-options" style="display: none;">
+                        <label><input type="checkbox" class="activity-checkbox" value="50" /> Cricket (50 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="75" /> Football (75 Tk/day)</label><br>
+                        <label><input type="checkbox" class="activity-checkbox" value="100" /> Swimming (100 Tk/day)</label><br>
+                    </div>
+                </div>
+            </form>
+            <h3>Total Price: <span id="totalPrice-man">0</span> Tk </h3>
+            <form action="process_package_selection.html" method="POST">
+                <input type="hidden" name="package" value="Adventure Tour">
+                <input type="hidden" name="price" value="$499.99">
+                <button type="submit">Select Sundarbans Tour</button>
+            </form>
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; 2025 Travel Around</p>
+    </footer>
+    <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+        <header>
+            <div class="logo">
+                <a href="#"><img src="/logo.png" alt="logo" width="500" /> </a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                   <li> <a href="index.html">Home</a> </li>
+                   <li> <a href="about.html">About</a> </li>
+                   <li> <a href="destination.html">Destinations</a> </li>
+                   <li> <a href="packages.html">TourPackages</a> </li>
+                   <li> <a href="review.html">Review</a> </li>
+                    <li> <a href="contact.html">Contact</a> </li>
+                    <li> <button onclick=login() class="btnlogin-popup">Login</button></li>
+                </ul>
+            </nav>
+           
+           
+        </header>
+
+    <main>
+        <section class="hero">
+            <div
+                class="hero-image">
+                <img src="/bg3.jpg" alt="image"/>
+            </div>
+            <div class="hero-content">
+                <h1> Travel Around</h1>
+                <h3>A Land Of Love</h3>
+                <h5>Enjoy Beautiful Bangladesh With Us</h5>
+            </div>
+            <br>
+<br>
+
+    <div id="cont" class="cont">
+       <span onclick=login2() class="icon-close">
+            <i class='bx bx-x' ></i>
+        </span> 
+        <div class="form sign-in">
+            <h2>Welcome To Travel Around</h2>
+            <label>
+                <span>User Name</span>
+                <input type="text" />
+            </label>
+            <label>
+                <span>Password</span>
+                <input type="password" />
+            </label>
+            <p class="forgot-pass"> <a href="#">Forgot password?</a></p>
+            <button type="button" class="submit">Sign In</button>
+         
+        </div>
+        <div class="sub-cont">
+            <div class="img">
+            
+                <div class="img__text m--up">
+                    <span onclick=login2() class="icon-close">
+                        <i class='bx bx-x' ></i>
+                    </span>
+                    <h3>Don't have an account? Please Sign up!<h3>
+                </div>
+                <div class="img__text m--in">
+                
+                    <h3>If you already has an account, just sign in.<h3>
+                </div>
+                <div class="img__btn">
+                    <span class="m--up">Sign Up</span>
+                    <span class="m--in">Sign In</span>
+                </div>
+            </div>
+            <div class="form sign-up">
+                <h2>Create your Account</h2>
+                <label>
+                    <span>Name</span>
+                    <input type="text" />
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" />
+                </label>
+                <label>
+                    <span>Password</span>
+                    <input type="password" />
+                </label>
+                <label>
+                <select name="role" required>
+                    <option value="">--Select Role--</option>
+                    <option value="user" >User</option>
+                    <option value="admin">Admin</option>
+                </select>
+                </label>
+                <button type="button" class="submit">Sign Up</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.img__btn').addEventListener('click', function() {
+            document.querySelector('.cont').classList.toggle('s--signup');
+        });
+    </script> 
+        </section>
+      
+      
+        <!-- Gallery Section -->
+   <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-container">
+        <div class="gallery-images">
+            <div class="gallery-item"><img src="BG1.5.jpg" alt="cox's bazar"><p>Cox's Bazar</p></div>
+            <div class="gallery-item"><img src="BG2.2.jpg" alt="sundarban"><p>Sundarban</p></div>
+            <div class="gallery-item"><img src="BG3.3.jpg" alt="sreemangal"><p>Sreemangal</p></div>
+            <div class="gallery-item"><img src="BG4.4.jpg" alt="bandarban"><p>Bandarban</p></div>
+            <div class="gallery-item"><img src="G.Sajek.jpeg" alt="Sajek Valley"><p>Sajek Valley</p></div>
+            <div class="gallery-item"><img src="G.ranga.png" alt="Rangamati"><p>Rangamati</p></div>
+            <div class="gallery-item"><img src="G.Kaptai.jpg" alt="Kaptai"><p>Kaptai</p></div>
+            <div class="gallery-item"><img src="G.Ctg.jpg" alt="Chittagong"><p>Chittagong</p></div>
+            <div class="gallery-item"><img src="G.khagra (2).png" alt="Khagrachari"><p>Khagrachari</p></div>
+        </div>
+    </div>
+</section>
+<!-- FAQ Section -->
+<section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    
+    <div class="faq-container">
+        
+        <div class="faq-questions">
+            <div class="faq-item">
+                <h3>What is Travel Around?</h3>
+                <p>Travel Around is a travel agency that offers personalized tour packages for various destinations.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What are the best tourist destinations in Bangladesh?</h3>
+                <p>Some of the best destinations include Cox's Bazar, Sundarbans, Srimangal, and Sreemangal Tea Garden.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can I book a travel package?</h3>
+                <p>You can book a travel package through our website or by contacting our customer support team.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is the best time to visit Bangladesh?</h3>
+                <p>The best time to visit Bangladesh is during the cooler months, from November to February.</p>
+            </div>
+    
+            <div class="faq-item">
+                <h3>How do I contact customer support?</h3>
+                <p>You can reach our customer support team through the contact page on our website.</p>
+            </div>
+
+        </div>
+        
+        <div class="faq-image">
+            <img src="FAQ.png" alt="FAQ Image">
+        </div>
+    </div>
+</section>
+<script>
+
+    const faqItems = document.querySelectorAll('.faq-item');
+    
+    faqItems.forEach(item => {
+        item.querySelector('h3').addEventListener('click', () => {
+            item.classList.toggle('active');  
+        });
+    });
+    </script>
+
+
+
+        <section class="why">
+            <div class="image"> 
+                <img src="/why1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3> Why Choose Us?</h3>
+                <p>1. Explore Top Destinations Around the World:
+                    Whether you're dreaming of the beaches of Bali, the historical wonders of Rome, or the vibrant culture of Tokyo, we offer access to some of the world’s most sought-after destinations. Our curated travel packages bring you closer to iconic landmarks and hidden gems, ensuring your vacation is filled with unforgettable experiences.</p>
+                <p>2. Affordable Packages for Every Budget:
+                    We believe that travel should be accessible to everyone, which is why we offer a variety of affordable packages that cater to different budgets. Whether you're planning a luxury getaway or a budget-friendly adventure, we've got options that will suit your needs without compromising on quality.</p>
+                    <p>3. 24/7 Customer Support:
+                        Your travel plans deserve top-notch support, no matter the time of day. Our dedicated team is available around the clock to assist with any questions, concerns, or last-minute changes you may need. We’re just a call or message away—anytime, anywhere.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class='bx bxs-map'></i>
+                        <span>Top Destinations</span>
+                    </div>
+                    <div class="icons">
+                        <i class='bx bxs-wallet' ></i>
+                        <span>Affordable Packages</span>
+                    </div>
+                    <div class="icons">
+                        <i class='bx bxs-time' ></i>
+                        <span>24/7 Services</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+      <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="index.html"><i class='bx bx-chevron-right'></i><i class='bx bxs-home'></i> Home </a>
+                <a href="about.html"><i class='bx bx-chevron-right'></i> About </a>
+                <a href="package.html"><i class='bx bx-chevron-right'></i> Packages </a>
+                <a href="contact.html"><i class='bx bx-chevron-right'></i> Contact </a>
+            </div>
+
+            <div class="box">
+               <h3>Extra links</h3>
+               <a href="" ><i class='bx bx-chevron-right'></i>ask questions</a>
+               <a href="destination.html"><i class='bx bx-chevron-right'></i>Destinations</a>
+               <a href="#"><i class='bx bx-chevron-right'></i> Privacy policy</a>
+               <a href="#"><i class='bx bx-chevron-right'></i> Terms of use</a>
+
+
+            </div>
+
+            <div class="box">
+                <h3> Follow us</h3>
+                <a href="#"><i class='bx bxl-facebook'></i> facebook </a>
+                <a href="#"><i class='bx bxl-twitter'></i> twitter</a>
+                <a href="#"><i class='bx bxl-instagram'></i>instagram </a>
+                <a href="#"><i class='bx bxl-youtube' ></i> youtube</a>
+            </div>
+        </div>
+
+        <div class="credit"> Created by <span> travelaround</span> |All Rights Reserved!</div>
+      </section>
+    
+
+
+    <script src="script.js" ></script>
+    <script src="login.js" ></script>
+</body>
+</html>
