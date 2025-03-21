@@ -1,13 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.jsx";
+import App from "./App(C231450).jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import SignInPage from "./auth/sign-in";
+import SignInPage from "./auth/sign-in/index(C231450)";
 // import { Home } from "lucide-react";
-import Home from "./home/index.jsx";
+import Home from "./home/index(C231450).jsx";
 
-import Dashboard from "./dashboard";
+import Dashboard from "./dashboard/index(C231450)";
 import { ClerkProvider } from "@clerk/clerk-react";
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
