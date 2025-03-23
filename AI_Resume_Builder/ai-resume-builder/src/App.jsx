@@ -5,7 +5,7 @@ import "./App.css";
 import "./index.css";
 import { Navigate, Outlet } from "react-router-dom";
 import { useUser } from "@clerk/clerk-react";
-import Header from "./components/custom/Header(C231450)";
+import Header from "./components/custom/Header";
 
 function App() {
   const [count, setCount] = useState(0);

@@ -13,7 +13,7 @@
 
 // export default Home;
 
-import Header from "@/components/custom/Header(C231450)";
+import Header from "@/components/custom/Header";
 import { UserButton } from "@clerk/clerk-react";
 import { AtomIcon, Edit, Share2 } from "lucide-react";
 import React from "react";
