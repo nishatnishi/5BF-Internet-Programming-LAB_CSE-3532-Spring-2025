@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Event Management System</title>
+    <style>
+        /* Events Page Styling */
+.events-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.event {
+    background: #f8f9fa;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.booking-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.booking-form button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+</head>
+<body>
+
+   
+
+    <!-- Events Section -->
+    <section class="events-container">
+        <h1>Upcoming Events</h1>
+
+        <div class="event">
+            <h2>Wedding Expo 2025</h2>
+            <p>Date: May 15, 2025 | Time: 5:00 PM | Venue: Grand Hall</p>
+            <p>Join us for an exclusive wedding planning experience.</p>
+        </div>
+
+        <div class="event">
+            <h2>Corporate Business Summit</h2>
+            <p>Date: June 10, 2025 | Time: 9:00 AM | Venue: Downtown Conference Center</p>
+            <p>A gathering of top business leaders and innovators.</p>
+        </div>
+
+        <div class="event">
+            <h2>Music Festival 2025</h2>
+            <p>Date: July 22, 2025 | Time: 6:00 PM | Venue: Open Air Stadium</p>
+            <p>Enjoy live performances by top artists from around the world.</p>
+        </div>
+    </section>
+
+    <!-- Event Booking Form -->
+    <section class="booking-form">
+        <h2>Book Your Event</h2>
+        <form>
+            <label for="event-name">Event Name:</label>
+            <input type="text" id="event-name" name="event-name" required>
+
+            <label for="attendee-name">Your Name:</label>
+            <input type="text" id="attendee-name" name="attendee-name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+</body>
+</html>
