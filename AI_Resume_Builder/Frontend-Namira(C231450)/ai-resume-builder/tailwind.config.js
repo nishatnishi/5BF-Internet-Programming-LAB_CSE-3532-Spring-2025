@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -52,10 +53,9 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
 
-        customBlue: "#1e40af", // Define your custom blue color
-        skyBlue: "#38bdf8",   // Lighter blue color
-        deepBlue: "#0369a1",  // Darker blue color
-
+        customBlue: "#1e40af",
+        skyBlue: "#38bdf8",
+        deepBlue: "#0369a1",
       },
       borderRadius: {
         lg: "var(--radius)",

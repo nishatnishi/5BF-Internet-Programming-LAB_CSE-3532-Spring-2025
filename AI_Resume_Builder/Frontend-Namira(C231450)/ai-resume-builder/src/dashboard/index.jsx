@@ -1,5 +1,5 @@
 import React from "react";
-import AddResume from "./components/AddResume";
+import AddResume from "./components/AddResume(C231450)";
 
 function Dashboard() {
   return (

@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import SignInPage from "./auth/sign-in";
+import SignInPage from "./auth/sign-in/index";
 // import { Home } from "lucide-react";
 import Home from "./home/index.jsx";
 
