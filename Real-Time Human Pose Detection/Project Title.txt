@@ -1,0 +1,26 @@
+Project Title: Real-Time Human Pose Detection  
+Technologies Used: 
+* Python – Programming language used for the main logic. 
+* MediaPipe – A Google library for real-time pose estimation and other ML-based computer vision tasks. 
+* OpenCV – For accessing the laptop camera, processing video frames, and displaying output. 
+* NumPy – Used for handling image array manipulations. 
+Hardware Used: 
+* Laptop Camera – Built-in webcam used to capture live video stream. 
+Software Tools: 
+* Visual Studio Code – Python code editor 
+How It Works: 
+1. Live camera feed is captured using OpenCV (cv2.VideoCapture). 
+2. Each frame is converted from BGR to RGB (because MediaPipe requires RGB input). 
+3. The frame is sent to MediaPipe’s pose model to detect body landmarks (like shoulders, elbows, knees). 
+4. If a human pose is detected, MediaPipe returns 33 key points with x, y, z coordinates. 
+5. Using MediaPipe’s drawing utilities, the program draws a skeleton over the person in real time. 
+6. The annotated frame is displayed using cv2.imshow() and updates continuously. 
+Main Features: 
+* Real-time detection with very low delay 
+* Visual representation of human body posture 
+* Works directly on a laptop with no extra hardware 
+Team Responsibilities:
+Team Member 1: (C213214R)
+Responsible for implementing the pose detection system using MediaPipe and OpenCV. Also developed the curl counter, which detects bicep curls based on elbow movement and counts the number of repetitions. 
+Team Member 2: (C213213R)
+Focused on calculating joint angles (such as the angle at the elbow or knee) using the coordinates of detected landmarks. This helps in determining body posture and identifying correct movement form.
