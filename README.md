@@ -1,55 +1,171 @@
-# 5BF-Internet-Programming-LAB_CSE-3532-Spring-2025
-📍 Project Origin This project is developed as part of the Tools and Technologies for Internet Programming course, for semester final work, under the Department of Computer Science and Engineering, International Islamic University Chittagong, Bangladesh.
+# 🚀 AI RESUME BUILDER 
 
-# 🌐 Tools and Technologies for Internet Programming - Section 5BF 💻  
-Welcome to the **Tools and Technologies for Internet Programming** course repository for **Section 5BF**! You'll submit your assignments, projects, and code related to modern WEB/APP development technologies in this repository.
+**AI Resume Builder** is a smart, AI-powered platform that simplifies and enhances the resume-building process. With intelligent feedback and real-time suggestions, users can effortlessly generate professional, impactful resumes that increase their chances of landing the right job. The application is secure, user-friendly, and highly customizable.
 
-> **From HTML to ReactJS – Build dynamic, responsive, and interactive web applications!** 🌐💡
 
 ---
 
-## 📌 How to Use This Repository  
+## 👥 Team Members & Roles
 
-### 🏆 Step 1: Accept the GitHub Invitation  
-- Check your email for an invite to this repository.  
-- Click **"Accept"**, and you're officially part of the team! 🎉  
+### 👩‍💻 **Kazi Namira Meyheg Sanam (ID: C231450)**  
 
-### 📂 Step 2: Create Your Project Folder  
-- **Each team member** must create their folder for their project or individual assignment.  
-- Name it in the following format:  
-  ```bash
-  ProjectName_SectionX
-- Every student must include their student ID in their filenames for tracking.
+---
 
-### 🤝 Step 3: Ensure Everyone Contributes
-- Every team member must commit their work themselves.
-- Every student must include their student ID in their filenames for tracking.
-- Use meaningful commit messages so we know who did what.
-Example: 
-  ```bash
-  git commit -m "Initial HTML structure - Sara_C20...."
+**Frontend Development**  
+  
+  
+  
+  
+  - Set up the frontend using React, Vite, and Tailwind CSS  
+  - Designed the UI/UX layout and worked on responsiveness 
+  - Progressed significantly on building out the frontend components  
+  - Will collaborate on integrating frontend with backend APIs  
+  - Focus on creating an intuitive and interactive user interface  
+  - Will implement AI-based UI feedback features such as real-time suggestions and visual resume scoring   
 
-### 🚀 Step 4: Upload Your Work (Like a Pro)
-- After completing your work:
-  ```bash
-  git add .
-  git commit -m "Built homepage - Sara_C20...."
-  git push origin main
+<br>
 
-### ⚠️ Repository Rules (a.k.a. The Internet Commandments)
-- ✅ One folder per project – Keep it organized!
-- ✅ Everyone must contribute – We track everything. No shortcuts!
-- ✅ Follow best practices – Clean, structured code = Smooth functioning.
-- ✅ No breaking the internet – Don't mess with others' work.
-- ✅ If you break it, fix it – Or bring coffee for your team. ☕
 
-🚀 Pro Tips for Success
-- Commit often – No one likes losing their progress.
-- Use GitHub Issues & Pull Requests to discuss changes with your team.
-- If something breaks, don’t panic – Google, Stack Overflow, and I are here to help.
 
-📢 Questions? Errors?
-- Ask in class, message your team, or reach out to me.
+### 👩‍💻 **Umme Benin Yeasmin Meem (ID: C231452)**  
 
-### Instructor: Sara Karim
-- 💡 "Code together, learn together, and let’s build something amazing!"
+---
+
+**Backend Development**  
+  
+  
+  
+  
+  - Implemented authentication API  
+  - Set up the backend using Strapi CMS
+  - Created the PostgreSQL database using **Neon.tech**
+  - Connected the backend to the frontend     
+  - Will integrate Gemini AI for resume analysis   
+  - Will manage authentication, resume data, and skill analysis API endpoints  
+  - Will ensure secure API handling and further backend enhancements  
+
+
+
+---
+
+
+
+## 🏗️ Current Project Status
+
+Currently, the project has progressed from the planning phase to initial development. The frontend environment has been set up and actively developed with a responsive layout, while the backend is configured using Strapi. A PostgreSQL database has been created via Neon.tech, and integration between frontend and backend has begun.
+
+---
+
+
+### ✅ Key Progress So Far:
+- ⚙️ Frontend setup with React, Vite, and Tailwind CSS is almost complete
+- 🎨 UI/UX layout is partially implemented and under active development
+- 🛠 Backend initialized using **Strapi** (headless CMS)
+- 🗄 PostgreSQL database successfully created and hosted on **Neon.tech**
+- 🔗 Initial backend–frontend connection established and being extended
+- 🚧 Further development for resume processing, AI integration, and full deployment is in progress
+
+
+
+---
+
+
+
+## 🎯 Project Overview
+
+We aim to develop an AI-driven system that analyzes resumes and provides feedback on structure, skills, and improvements to enhance job opportunities.
+
+
+---
+
+
+
+## ✨ Key Features
+
+- 🔍 **AI-Based Resume Analysis** – Get intelligent insights on your resume structure and content  
+- 🧠 **Smart Skill Suggestion** – Enhance your resume with in-demand, role-specific skill recommendations  
+- ⚡ **Real-time Feedback** – Instant suggestions and optimization tips while building your resume  
+- 🔐 **Secure Data Handling** – Ensures all user data is managed safely and privately  
+- 📈 **Interactive & Responsive Interface** – User-friendly, modern UI built for a seamless experience  
+
+
+
+---
+
+
+
+## 🛠 Tech Stack
+
+
+
+### 🎯 Frontend  
+- 🚀 **React.js** – For building dynamic and interactive UIs 
+- ⚡ **Vite** – For fast development and optimized builds
+- 🎨 **Tailwind CSS** – For responsive and modern styling 
+
+
+---
+
+
+### 🧩 Backend  
+- 🛠 **Node.js + Express.js** – Server-side development   
+- 📜 **Strapi** – Headless CMS setup from scratch for managing APIs and content
+
+
+---
+
+
+### 🗃️ Database  
+- 🐘 **PostgreSQL** – Relational database for resume and user data
+- ☁️ **Neon.tech** – Fully managed PostgreSQL database in the cloud  
+
+
+---
+
+
+### 🤖 AI Integration  
+- 🤖 **Gemini API** – For resume scoring, feedback, and suggestions  
+- 🧠 **Natural Language Processing (NLP) & AI Models** – For text analysis and improvement suggestions  
+
+
+---
+
+
+### 📌 Deployment  
+- 🌍 **Vercel** – For frontend (Vite) hosting  
+- 🔧 **Render** – For backend (Strapi) hosting  
+
+
+---
+
+
+## 🚧 Development Roadmap
+
+📍 **Phase 1** – Project structure & frontend setup  
+✅ *Completed by Kazi Namira Meyheg Sanam*
+
+📍 **Phase 2** – Build core frontend components  
+✅ *Progressed significantly by Kazi Namira Meyheg Sanam*
+
+📍 **Phase 3** – Backend setup with Strapi CMS  
+✅ *Completed by Umme Benin Yeasmin Meem*
+
+📍 **Phase 4** – Create PostgreSQL database on Neon.tech  
+✅ *Completed by Umme Benin Yeasmin Meem*
+
+📍 **Phase 5** – Begin frontend-backend integration  
+✅ *Started integration between frontend and Strapi*
+
+📍 **Phase 6** – Implement resume upload & AI analysis logic  
+🚧 *Upcoming*
+
+📍 **Phase 7** – AI feedback, skill suggestion & enhancement engine  
+🚧 *Upcoming*
+
+📍 **Phase 8** – Final integration, testing & deployment  
+🚧 *Upcoming*
+
+
+---
+
+Feel free to contribute or follow our progress on GitHub!😊
