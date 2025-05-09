@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import AddResume from "./components/AddResume(C231450)";
 
@@ -15,3 +16,22 @@ function Dashboard() {
 }
 
 export default Dashboard;
+=======
+import React from "react";
+import AddResume from "./components/AddResume(C231450)";
+
+function Dashboard() {
+  return (
+    <div className="p-10 md:px-20 lg:px-32">
+      <h2 className="font-bold text-3xl">My Resume</h2>
+      <p>Create a job-ready AI resume in minutes.</p>
+
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-10">
+        <AddResume />
+      </div>
+    </div>
+  );
+}
+
+export default Dashboard;
+>>>>>>> fc204137c23d9f4fcd19c1946050e020074528b2
