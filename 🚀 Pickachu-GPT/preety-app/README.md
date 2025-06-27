@@ -59,17 +59,11 @@ Improve responsiveness and add enhancements
 
 ## 💻 Installation & Running Locally
 
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/pickachu-gpt.git
-cd pickachu-gpt
 
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
 
 # Build for production
 npm run build
 npm run start
+<p align="center">
+  <img src="./project ss .png" alt="Pickachu-GPT UI Preview" width="600"/>
+</p>
