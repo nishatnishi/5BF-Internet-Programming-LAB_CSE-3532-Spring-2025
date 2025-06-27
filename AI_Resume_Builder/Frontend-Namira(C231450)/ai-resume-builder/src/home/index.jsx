@@ -1,18 +1,3 @@
-// import { UserButton } from "@clerk/clerk-react";
-// import React from "react";
-// import Header from "../components/custom/Header";
-
-// function Home() {
-//   return (
-//     <div>
-//       <Header />
-//       Landing Screen
-//     </div>
-//   );
-// }
-
-// export default Home;
-
 import Header from "@/components/custom/Header";
 import { UserButton } from "@clerk/clerk-react";
 import { AtomIcon, Edit, Share2 } from "lucide-react";
@@ -20,18 +5,15 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
+    <div className="min-h-screen bg-gradient-to-r from-gray-100 via-blue-200 to-purple-100 bg-[length:200%_200%] animate-gradient-x">
       <Header />
       <div>
-        {/* <img src={'/grid.svg'} className="absolute z-[-10] w-full" 
-      width={1200} height={300} /> */}
-        {/* <Header/> */}
         <section className=" z-50">
           <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
               Build Your Resume <span className="text-primary">With AI</span>{" "}
             </h1>
-            <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+            <p className="m-10 text-lg font-normal text-gray-500 lg:text-1.5xl sm:px-16 xl:px-48 dark:text-gray-400">
               Build a Professional Resume in Minutes with Our AI-Powered Builder
             </p>
             <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
@@ -68,8 +50,8 @@ function Home() {
                 Watch video
               </a>
             </div>
-            <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-              <span className="font-semibold text-gray-400 uppercase">
+            {/* <div className="max-w-screen-xl mx-auto px-4 text-center">
+              <span className="block text-sm font-semibold text-gray-500 uppercase tracking-wider mb-6">
                 FEATURED IN
               </span>
               <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
@@ -174,74 +156,63 @@ function Home() {
                   </svg>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
-        <section className="py-8 bg-slate-100 z-50 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-          <h2 className="font-bold text-3xl">How it Works?</h2>
-          <h2 className="text-md text-gray-500">
-            Give mock interview in just 3 simplar easy step
+
+        <section className="py-10 px-4 mx-auto max-w-screen-xl text-center lg:py-10 lg:px-12 bg-white/60 backdrop-blur-md rounded-xl border border-purple-100 shadow-md">
+          <h2 className="font-bold text-4xl text-gray-700">How it Works?</h2>
+          <h2 className="mt-2 text-md text-gray-500">
+            Give a mock interview in just 3 easy steps.
           </h2>
 
-          <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="m-10 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <a
-              className="block rounded-xl border bg-white
-         border-gray-200 p-8 shadow-xl transition
-         hover:border-pink-500/10 hover:shadow-pink-500/10"
+              className="block rounded-xl border border-indigo-100 bg-blue-200/80 p-6 shadow-sm transition hover:border-indigo-200 hover:shadow-md"
               href="#"
             >
-              <AtomIcon className="h-8 w-8" />
-
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Write promot for your form
-              </h2>
-
-              <p className="mt-1 text-sm text-gray-600">
-                Create a custom form with ease using our simple and intuitive
-                form builder. Add the necessary fields and personalize it to
-                match your needs. Start building your form now!
+              <AtomIcon className="h-8 w-8 text-indigo-400 mx-auto" />
+              <h3 className="mt-4 text-xl font-semibold text-gray-700">
+                Write Your Resume Prompt
+              </h3>
+              <p className="mt-2 text-sm text-gray-600">
+                Easily create your resume by entering basic details like
+                experience, education, and skills.
               </p>
             </a>
 
             <a
-              className="block rounded-xl border bg-white border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+              className="block rounded-xl border border-indigo-100 bg-purple-200/80 p-6 shadow-sm transition hover:border-indigo-200 hover:shadow-md"
               href="#"
             >
-              <Edit className="h-8 w-8" />
-
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Edit Your form{" "}
-              </h2>
-
-              <p className="mt-1 text-sm text-gray-600">
-                Make your form truly yours by editing the fields, changing the
-                layout, and adjusting the design. Customize every detail to
-                ensure it serves your unique requirements.
+              <Edit className="h-8 w-8 text-indigo-400 mx-auto" />
+              <h3 className="mt-4 text-xl font-semibold text-gray-700">
+                Customize Your Resume
+              </h3>
+              <p className="mt-2 text-sm text-gray-600">
+                Adjust layout, theme color, and design to make your resume
+                visually appealing.
               </p>
             </a>
 
             <a
-              className="block rounded-xl border bg-white border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+              className="block rounded-xl border border-indigo-100 bg-orange-50/80 p-6 shadow-sm transition hover:border-indigo-200 hover:shadow-md"
               href="#"
             >
-              <Share2 className="h-8 w-8" />
-
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Share & Start Accepting Responses
-              </h2>
-
-              <p className="mt-1 text-sm text-gray-600">
-                Once your form is ready, share it with others and begin
-                accepting responses instantly. Collect data effortlessly and
-                manage submissions with ease.
+              <Share2 className="h-8 w-8 text-indigo-400 mx-auto" />
+              <h3 className="mt-4 text-xl font-semibold text-gray-700">
+                Share or Download
+              </h3>
+              <p className="mt-2 text-sm text-gray-600">
+                Share your resume online or download it instantly as a PDF.
               </p>
             </a>
           </div>
 
-          <div className="mt-12 text-center">
+          <div className="mt-12">
             <a
               href="/sign-in"
-              className="inline-block rounded bg-primary px-12 py-3 text-sm font-medium text-white transition hover:bg-primary focus:outline-none focus:ring primary-300 dark:focus:ring-primary-900"
+              className="inline-block rounded-full bg-indigo-400 px-10 py-3 text-sm font-medium text-white transition hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-200"
             >
               Get Started Today
             </a>

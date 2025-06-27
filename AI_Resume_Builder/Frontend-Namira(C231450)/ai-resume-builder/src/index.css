@@ -2,6 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+@media print {
+  #no-print {
+    display: none;
+  }
+
+  #print-area {
+    display: block;
+  }
+
+  .bg-gray-300 {
+    background-color: #d1d5db !important;
+  }
+
+  .bg-gray-400 {
+    background-color: #9ca3af !important;
+  }
+
+  .border-gray-500 {
+    border-color: #6b7280 !important;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+}
+
+@page {
+  size: auto;
+  margin: 0mm;
+}
+
+.rsw-ce ul {
+  list-style: disc;
+  padding-left: 2em;
+}
+
+.rsw-ce ol {
+  list-style: decimal;
+  padding-left: 2em;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -90,7 +133,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: rgb(222 222 242 / var(--tw-bg-opacity, 1));
   }
   a:hover {
     color: #747bff;
