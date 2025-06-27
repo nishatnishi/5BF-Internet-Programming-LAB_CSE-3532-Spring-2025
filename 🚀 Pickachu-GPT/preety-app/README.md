@@ -55,15 +55,4 @@ Fix linting errors and improve code quality
 🎨 Phase 5 – UI Polish & Additional Features  
 Improve responsiveness and add enhancements
 
----
 
-## 💻 Installation & Running Locally
-
-
-
-# Build for production
-npm run build
-npm run start
-<p align="center">
-  <img src="./project ss .png" alt="Pickachu-GPT UI Preview" width="600"/>
-</p>
