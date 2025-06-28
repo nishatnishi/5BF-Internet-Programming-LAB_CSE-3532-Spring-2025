@@ -34,3 +34,14 @@ This assistant is ideal for users who want to train at home and track their form
 - **Threading** – to handle concurrent video capture and GUI interaction
 
 ---
+
+## 📸 Screenshots
+
+### 🧭 GUI Window
+![GUI Window](images/gui.png)
+
+### 💪 Arm Counter Mode
+![Arm Counter](images/arm_counter.png)
+
+### 🏋️ Squat Counter Mode
+![Squat Counter](images/squat_counter.png)
