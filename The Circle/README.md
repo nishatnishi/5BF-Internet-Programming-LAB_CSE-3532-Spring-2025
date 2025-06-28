@@ -15,8 +15,8 @@ A simple and efficient platform to plan, organize, and manage events seamlessly.
 ## 👨‍💻 Team Members
 | Name              | ID      |
 |--------------     |---------|
-|Saima Binte Soyeb  | C231449 |
 | Sanzida Nishat    | C231442 |
+|Saima Binte Soyeb  | C231449 |
 
 ## 🛠️ Setup & Installation  
 1️⃣ **Clone the Repository** – Download the project files from GitHub.  
