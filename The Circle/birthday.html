@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Birthday Party</title>
+  <style>
+    body { background: #001f3f; color: white; font-family: Arial, sans-serif; padding: 20px; text-align: center;}
+    h1 { color: #ffdc00; margin-bottom: 30px;}
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;}
+    .gallery img { width: 250px; height: 160px; object-fit: cover; border-radius: 8px; box-shadow: 0 0 10px #ffdc00; cursor: pointer; transition: transform 0.3s;}
+    .gallery img:hover { transform: scale(1.1);}
+    .back-link { color: #00ffff; font-weight: bold; text-decoration:none; margin-top: 40px; display: inline-block; }
+  </style>
+</head>
+<body>
+  <h1>Birthday Party Gallery</h1>
+  <div class="gallery">
+    <img src="birthday1.jpeg" alt="Birthday Photo 1" />
+    <img src="birthday2.jpeg" alt="Birthday Photo 2" />
+    <img src="birthday3.jpeg" alt="Birthday Photo 3" />
+  </div>
+  <a href="index.html" class="back-link">← Back to Events</a>
+</body>
+</html>

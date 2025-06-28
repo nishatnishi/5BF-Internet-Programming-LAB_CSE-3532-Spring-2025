@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wedding Events</title>
+  <style>
+    body { background: #1e1e2f; color: white; font-family: Arial, sans-serif; padding: 20px; text-align: center;}
+    h1 { color: #ff4757; margin-bottom: 30px;}
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;}
+    .gallery img { width: 250px; height: 160px; object-fit: cover; border-radius: 8px; box-shadow: 0 0 10px #ff4757; cursor: pointer; transition: transform 0.3s;}
+    .gallery img:hover { transform: scale(1.1);}
+    a.back-link { color: #ffe600; font-weight: bold; text-decoration:none; margin-top: 40px; display: inline-block; }
+ .sub-event-link {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  background: #ff4757;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  width: fit-content;
+}
+.sub-event-link:hover {
+  background: #ff6b81;
+}
+
+ </style>
+</head>
+<body>
+  <h1>Wedding Events Gallery</h1>
+  <div class="gallery">
+    <img src="wedding1.jpeg" alt="Wedding Photo 1" />
+    <img src="wedding2.jpeg" alt="Wedding Photo 2" />
+    <img src="wedding3.jpeg" alt="Wedding Photo 3" />
+  </div>
+  <a href="index.html" class="back-link">← Back to Events</a>
+</body>
+</html>
