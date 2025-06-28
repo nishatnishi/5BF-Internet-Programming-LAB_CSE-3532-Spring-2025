@@ -34,12 +34,3 @@ This assistant is ideal for users who want to train at home and track their form
 - **Threading** – to handle concurrent video capture and GUI interaction
 
 ---
-
-## ▶️ Getting Started
-
-### Prerequisites
-
-Install required Python packages:
-
-```bash
-pip install opencv-python mediapipe numpy
