@@ -72,7 +72,6 @@ A user-centric and responsive **destination package booking platform** designed 
 
 ## ⚙️ Setup & Installation
 
-1. **Clone the Repository**
+1. **Website Live**
    ```bash
-  
-](http://127.0.0.1:8000/)
+   (http://127.0.0.1:8000/)
