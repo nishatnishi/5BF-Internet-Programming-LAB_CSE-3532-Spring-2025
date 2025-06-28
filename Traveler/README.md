@@ -74,6 +74,5 @@ A user-centric and responsive **destination package booking platform** designed 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-
+  
+](http://127.0.0.1:8000/)
