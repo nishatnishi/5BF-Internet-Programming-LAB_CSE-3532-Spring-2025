@@ -66,7 +66,7 @@ A user-centric and responsive **destination package booking platform** designed 
 |---------------------|----------|
 | Meherun Nesa Jerin  | C233436  |
 | Mostafa Arfin       | C233431  |
-| Sumaiya Hossain     | C233404  |
+
 
 ---
 
